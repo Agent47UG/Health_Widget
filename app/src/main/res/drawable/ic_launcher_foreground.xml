@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Ring Track (Blue) -->
+    <path
+        android:pathData="M54,24 A30,30 0 1,1 53.99,24"
+        android:strokeWidth="6"
+        android:strokeColor="#182A45" />
+
+    <!-- Outer Ring Progress (Steps - Blue) -->
+    <path
+        android:pathData="M54,24 A30,30 0 1,1 24,54"
+        android:strokeWidth="6"
+        android:strokeColor="#0088FF"
+        android:strokeLineCap="round" />
+
+    <!-- Middle Ring Track (Calories - Orange) -->
+    <path
+        android:pathData="M54,33 A21,21 0 1,1 53.99,33"
+        android:strokeWidth="6"
+        android:strokeColor="#3B220A" />
+
+    <!-- Middle Ring Progress (Calories - Orange) -->
+    <path
+        android:pathData="M54,33 A21,21 0 1,1 39.15,39.15"
+        android:strokeWidth="6"
+        android:strokeColor="#FF8C00"
+        android:strokeLineCap="round" />
+
+    <!-- Inner Ring Track (Exercise - Green) -->
+    <path
+        android:pathData="M54,42 A12,12 0 1,1 53.99,42"
+        android:strokeWidth="5"
+        android:strokeColor="#0A2A12" />
+
+    <!-- Inner Ring Progress (Exercise - Green) -->
+    <path
+        android:pathData="M54,42 A12,12 0 1,1 45.5,45.5"
+        android:strokeWidth="5"
+        android:strokeColor="#00E640"
+        android:strokeLineCap="round" />
+
+    <!-- Center White Health Heart -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,58.5 C52.5,57.1 48,53.2 48,50.2 C48,48.4 49.4,47 51.2,47 C52.3,47 53.3,47.5 54,48.3 C54.7,47.5 55.7,47 56.8,47 C58.6,47 60,48.4 60,50.2 C60,53.2 55.5,57.1 54,58.5 Z" />
+
+</vector>
